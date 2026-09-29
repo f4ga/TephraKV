@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test / coverage
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Bench
+bench/current.txt
+bench/*.prof
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# tmp
+tmp/
+*.tmp
+
+# Go workspace
+go.work
+go.work.sum
+.codeassistant/
+.codeassistant/
