@@ -16,7 +16,7 @@
 
 Дисковая key-value СУБД на Go. Встраивается в приложение, разворачивается как standalone-сервер или как Multi-Raft-кластер. Один движок, три режима. Без cgo, без runtime-зависимостей, один статический бинарник.
 
-> **Design project.** Реализация v0.1 в работе. Архитектура зафиксирована в документах; публичных бенчмарков нет.
+> **Design project.** Реализация v0.1 в работе. Архитектура зафиксирована в документах (пока много пустых файлов только те, что в корне /docs); публичных бенчмарков нет.
 
 ---
 
@@ -75,7 +75,7 @@ TephraKV проектируется от требований к p999 к ост�
 | **CDN / Edge Compute** | Локальный KV в сотнях локаций | Pure Go, без cgo, статический бинарник |
 | **Fintech / Audit** | Ledger и audit log с retention | Per-op durability, PITR, encryption at rest |
 
-Подробные сценарии — [USER-STORIES-001](docs/USER-STORIES-001.md). Сегментация и GTM — [GTM.md](docs/GTM.md). Конкурентный анализ — [docs/product/](docs/product/).
+Подробные сценарии — [USER-STORIES-001](docs/USER-STORIES-001.md). Сегментация и GTM — [GTM.md](docs/GTM.md).
 
 ---
 
